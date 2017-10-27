@@ -13,6 +13,4 @@ ActiveAdmin.register Song do
 # end
 
   permit_params :title, :artist_id
-  actions :all, except: [:destroy]
-
 end
