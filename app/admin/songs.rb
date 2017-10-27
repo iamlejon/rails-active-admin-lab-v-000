@@ -12,4 +12,7 @@ ActiveAdmin.register Song do
 #   permitted
 # end
 
+  permit_params :name, :genre
+  actions :all, except: [:destroy]
+
 end
